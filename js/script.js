@@ -1,3 +1,5 @@
+
+
 $("#btnDireita").click(
     function () {
         $("#area").animate({ left: "1000px", }, { duration: 1200 })
@@ -5,7 +7,7 @@ $("#btnDireita").click(
 )
 $("#btnEsquerda").click(
     function () {
-        $("#area").animate({ left: "300px" }, { duration: 1200 })
+        $("#area").animate({ left: "200px" }, { duration: 1200 })
     }
 )
 $("#btnDescer").click(
